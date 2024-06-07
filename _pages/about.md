@@ -24,7 +24,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 I'm a research associate doing a Ph.D. in the [Explainable AI (XAI)](https://www.hhi.fraunhofer.de/en/departments/ai/research-groups/explainable-artificial-intelligence.html) group at Fraunhofer Heinrich Hertz Institute, and am fortunate to be advised by [Wojciech Samek](https://iphome.hhi.de/samek/) and [Sebastian Lapuschkin](https://iphome.hhi.de/lapuschkin/). Most of the time, I work at the intersection between machine learning and natural language processing (NLP). My research interests include analysis and interpretability for NLP, natural language understanding, and incremental (natural language) processing. 
 
-I received my M.Sc. in Cognitive Systems from [University of Potsdam](https://www.ling.uni-potsdam.de/cogsys/index.html), where I was advised by [David Schlangen](https://www.ling.uni-potsdam.de/~das/). Before that, I did my undergraduate at [Swiss German University](https://sgu.ac.id/) and [South Westphalia University of Applied Sciences](https://www.fh-swf.de/de/) as a part of a double-degree program.
+I received my M.Sc. in Cognitive Systems from [University of Potsdam](https://www.ling.uni-potsdam.de/cogsys/index.html), where I was (and still is) advised by [David Schlangen](https://www.ling.uni-potsdam.de/~das/). Before that, I did my undergraduate at [Swiss German University](https://sgu.ac.id/) and [South Westphalia University of Applied Sciences](https://www.fh-swf.de/de/) as a part of a double-degree program.
 
 
 
