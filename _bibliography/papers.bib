@@ -16,6 +16,8 @@
     doi = "10.18653/v1/2020.codi-1.4",
     pages = "32--41",
     abstract = "In coreference resolution, span representations play a key role to predict coreference links accurately. We present a thorough examination of the span representation derived by applying BERT on coreference resolution (Joshi et al., 2019) using a probing model. Our results show that the span representation is able to encode a significant amount of coreference information. In addition, we find that the head-finding attention mechanism involved in creating the spans is crucial in encoding coreference knowledge. Last, our analysis shows that the span representation cannot capture non-local coreference as efficiently as local coreference.",
+    bibtex_show={true},
+    abbr={CODI}
 }
 
 @inproceedings{kahardipraja-etal-2021-towards,
@@ -33,6 +35,8 @@
     doi = "10.18653/v1/2021.emnlp-main.90",
     pages = "1178--1189",
     abstract = "Incremental processing allows interactive systems to respond based on partial inputs, which is a desirable property e.g. in dialogue agents. The currently popular Transformer architecture inherently processes sequences as a whole, abstracting away the notion of time. Recent work attempts to apply Transformers incrementally via restart-incrementality by repeatedly feeding, to an unchanged model, increasingly longer input prefixes to produce partial outputs. However, this approach is computationally costly and does not scale efficiently for long sequences. In parallel, we witness efforts to make Transformers more efficient, e.g. the Linear Transformer (LT) with a recurrence mechanism. In this work, we examine the feasibility of LT for incremental NLU in English. Our results show that the recurrent LT model has better incremental performance and faster inference speed compared to the standard Transformer and LT with restart-incrementality, at the cost of part of the non-incremental (full sequence) quality. We show that the performance drop can be mitigated by training the model to wait for right context before committing to an output and that training with input prefixes is beneficial for delivering correct partial outputs.",
+    bibtex_show={true},
+    abbr={EMNLP}
 }
 
 @inproceedings{kahardipraja-etal-2023-tapir,
@@ -50,6 +54,8 @@
     doi = "10.18653/v1/2023.findings-acl.257",
     pages = "4173--4197",
     abstract = "Language is by its very nature incremental in how it is produced and processed. This property can be exploited by NLP systems to produce fast responses, which has been shown to be beneficial for real-time interactive applications. Recent neural network-based approaches for incremental processing mainly use RNNs or Transformers. RNNs are fast but monotonic (cannot correct earlier output, which can be necessary in incremental processing). Transformers, on the other hand, consume whole sequences, and hence are by nature non-incremental. A restart-incremental interface that repeatedly passes longer input prefixes can be used to obtain partial outputs, while providing the ability to revise. However, this method becomes costly as the sentence grows longer. In this work, we propose the Two-pass model for AdaPtIve Revision (TAPIR) and introduce a method to obtain an incremental supervision signal for learning an adaptive revision policy. Experimental results on sequence labelling show that our model has better incremental performance and faster inference speed compared to restart-incremental Transformers, while showing little degradation on full sequences.",
+    bibtex_show={true},
+    abbr={ACL}
 }
 
 @inproceedings{madureira-etal-2023-road,
@@ -66,6 +72,8 @@
     html = "https://aclanthology.org/2023.sigdial-1.14",
     pages = "156--167",
     abstract = "Incremental dialogue model components produce a sequence of output prefixes based on incoming input. Mistakes can occur due to local ambiguities or to wrong hypotheses, making the ability to revise past outputs a desirable property that can be governed by a policy. In this work, we formalise and characterise edits and revisions in incremental sequence labelling and propose metrics to evaluate revision policies. We then apply our methodology to profile the incremental behaviour of three Transformer-based encoders in various tasks, paving the road for better revision policies.",
+    bibtex_show={true},
+    abbr={SIGDIAL}
 }
 
 @inproceedings{madureira-etal-2024-time,
@@ -85,4 +93,43 @@
     html = "https://aclanthology.org/2024.acl-long.260",
     pages = "4722--4749",
     abstract = "Incremental models that process sentences one token at a time will sometimes encounter points where more than one interpretation is possible. Causal models are forced to output one interpretation and continue, whereas models that can revise may edit their previous output as the ambiguity is resolved. In this work, we look at how restart-incremental Transformers build and update internal states, in an effort to shed light on what processes cause revisions not viable in autoregressive models. We propose an interpretable way to analyse the incremental states, showing that their sequential structure encodes information on the garden path effect and its resolution. Our method brings insights on various bidirectional encoders for contextualised meaning representation and dependency parsing, contributing to show their advantage over causal models when it comes to revisions.",
+    bibtex_show={true},
+    abbr={ACL}
+}
+
+@misc{puri2025fadebaddescriptionshappen,
+      title={FADE: Why Bad Descriptions Happen to Good Features}, 
+      author={Bruno Puri and Aakriti Jain and Elena Golimblevskaia and Patrick Kahardipraja and Thomas Wiegand and Wojciech Samek and Sebastian Lapuschkin},
+      year={2025},
+      eprint={2502.16994},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.16994},
+      html={https://arxiv.org/abs/2502.16994},
+      bibtex_show={true},
+      abbr={ACL}
+}
+
+@misc{arras2025closelookdecompositionbasedxaimethods,
+      title={A Close Look at Decomposition-based XAI-Methods for Transformer Language Models}, 
+      author={Leila Arras and Bruno Puri and Patrick Kahardipraja and Sebastian Lapuschkin and Wojciech Samek},
+      year={2025},
+      eprint={2502.15886},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.15886},
+      html={https://arxiv.org/abs/2502.15886},
+      bibtex_show={true}
+}
+
+@misc{kahardipraja2025atlasincontextlearningattention,
+      title={The Atlas of In-Context Learning: How Attention Heads Shape In-Context Retrieval Augmentation}, 
+      author={Patrick Kahardipraja and Reduan Achtibat and Thomas Wiegand and Wojciech Samek and Sebastian Lapuschkin},
+      year={2025},
+      eprint={2505.15807},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.15807},
+      html={https://arxiv.org/abs/2505.15807},
+      bibtex_show={true}
 }
