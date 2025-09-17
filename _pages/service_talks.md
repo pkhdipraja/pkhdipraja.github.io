@@ -8,7 +8,7 @@ nav_order: 6
 
 ### Service
 
-* <span style="color:blue">Reviewer</span>: ACL SRW 2023, ACL SRW 2024 (Emergency), ARR Feb 2025, ARR May 2025, BlackboxNLP 2025.
+* <span style="color:blue">Reviewer</span>: ACL SRW 2023, ACL SRW 2024 (Emergency), ARR Feb 2025, ARR May 2025, BlackboxNLP 2025, NeurIPS 2025 (Secondary).
 
 ### Conference Talks
 
