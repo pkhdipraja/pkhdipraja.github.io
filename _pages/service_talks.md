@@ -12,4 +12,4 @@ nav_order: 6
 
 ### Conference Talks
 
-* <span style="color:blue">EMNLP 2021</span>: *Towards Incremental Transformers: An Empirical Analysis of Transformer Models for Incremental NLU*, Online and Punta Cana, Dominican Republic.
+* <span style="color:blue">EMNLP 2021</span>: *Towards Incremental Transformers: An Empirical Analysis of Transformer Models for Incremental NLU*, Online and Punta Cana, Dominican Republic. [Link](https://underline.io/lecture/37683-towards-incremental-transformers-an-empirical-analysis-of-transformer-models-for-incremental-nlu)
